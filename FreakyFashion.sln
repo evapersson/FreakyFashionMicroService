@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMVC", "src\Web Apps\WebMVC\WebMVC.csproj", "{8AB68D1C-481E-4C01-89BC-5EEA4F267643}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebMVC", "src\Web Apps\WebMVC\WebMVC.csproj", "{8AB68D1C-481E-4C01-89BC-5EEA4F267643}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A25D7DC6-6987-41E0-89B2-869643461549}"
 EndProject
@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{18CA366F-52CB-4674-A6BB-F5569CF4F9EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "src\Services\Catalog\Catalog.API\Catalog.API.csproj", "{00F8A34E-4CA1-4420-ABA4-EBAE34250581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.API", "src\Services\Catalog\Catalog.API\Catalog.API.csproj", "{00F8A34E-4CA1-4420-ABA4-EBAE34250581}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{A08D4FF7-63BF-4B1E-B627-7C79FD9AF960}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{00F8A34E-4CA1-4420-ABA4-EBAE34250581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00F8A34E-4CA1-4420-ABA4-EBAE34250581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00F8A34E-4CA1-4420-ABA4-EBAE34250581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08D4FF7-63BF-4B1E-B627-7C79FD9AF960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08D4FF7-63BF-4B1E-B627-7C79FD9AF960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08D4FF7-63BF-4B1E-B627-7C79FD9AF960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08D4FF7-63BF-4B1E-B627-7C79FD9AF960}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
